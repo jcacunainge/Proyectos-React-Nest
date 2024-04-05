@@ -1,0 +1,121 @@
+{
+  "restaurants": [
+    {
+      "id": "1",
+      "name": "The Golden Spoon",
+      "description": "A fine dining experience with a menu that changes daily based on the freshest ingredients.",
+      "address": "123 Main St. Anytown USA",
+      "score": 4.5,
+      "ratings": 100,
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/43/46/49/bar.jpg?w=1000&h=-1&s=1"
+    },
+    {
+      "id": "2",
+      "name": "La Piazza",
+      "description": "Authentic Italian cuisine in a cozy atmosphere with outdoor seating available ingredients options",
+      "address": "456 Oak Ave. Anytown USA",
+      "score": 4.2,
+      "ratings": 80,
+      "image": "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2021/12/23/61c456cc62a0b.r_d.2520-1680-0.jpeg"
+    },
+    {
+      "id": "3",
+      "name": "The Sizzling Skillet",
+      "description": "A family-friendly restaurant with a wide variety of dishes, including vegetarian options.",
+      "address": "789 Elm St. Anytown USA",
+      "score": 4.8,
+      "ratings": 120,
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/43/46/49/bar.jpg?w=1000&h=-1&s=1"
+    },
+    {
+      "id": "4",
+      "name": "The Hungry Bear",
+      "description": "A rustic cabin-style restaurant serving hearty portions of comfort food.",
+      "address": "101 Forest Rd. Anytown USA",
+      "score": 4,
+      "ratings": 60,
+      "image": "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2021/12/23/61c456cc62a0b.r_d.2520-1680-0.jpeg"
+    },
+    {
+      "id": "5",
+      "name": "The Spice Route",
+      "description": "A fusion restaurant that combines the flavors of India, Thailand, and China.",
+      "address": "246 Main St. Anytown USA",
+      "score": 4.6,
+      "ratings": 90,
+      "image": "https://media-cdn.tripadvisor.com/media/photo-s/0c/7f/55/df/photo0jpg.jpg"
+    },
+    {
+      "id": "6",
+      "name": "The Catch of the Day",
+      "description": "A seafood restaurant with a focus on locally-sourced ingredients.",
+      "address": "369 Beach Blvd. Anytown USA",
+      "score": 4.3,
+      "ratings": 70,
+      "image": "https://respostas.sebrae.com.br/wp-content/uploads/2021/04/como-ter-um-restuarante-bistro-959x615.jpg"
+    },
+    {
+      "id": "7",
+      "name": "The Garden Cafe",
+      "description": "A vegetarian restaurant with a beautiful outdoor garden seating area.",
+      "address": "753 Maple St. Anytown USA",
+      "score": 4.9,
+      "ratings": 150,
+      "image": "https://www.sillasmesas.es/blog/wp-content/uploads/2019/05/restaurantes-bistro-1024x680.jpg"
+    },
+    {
+      "id": "8",
+      "name": "The Burger Joint",
+      "description": "A classic American diner with a variety of burgers, fries, and milkshakes.",
+      "address": "852 Oak Ave. Anytown USA",
+      "score": 3.9,
+      "ratings": 50,
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/43/46/49/bar.jpg?w=1000&h=-1&s=1"
+    },
+    {
+      "id": "9",
+      "name": "The Cozy Corner",
+      "description": "A small cafe with a warm atmosphere, serving breakfast and lunch dishes.",
+      "address": "963 Main St. Anytown USA",
+      "score": 4.7,
+      "ratings": 110,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDTt1yNVVRCB2i8Xqp_viprNssaDxn3RPu_Dh4Db0KKSmXzMAPYh9qYwGCZCUkhVt4PZk&usqp=CAU"
+    },
+    {
+      "id": "10",
+      "name": "The Steakhouse",
+      "description": "A high-end restaurant specializing in premium cuts of beef and wines.",
+      "address": "1479 Elm St. Anytown USA",
+      "score": 4.1,
+      "ratings": 75,
+      "image": "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2021/12/23/61c456cc62a0b.r_d.2520-1680-0.jpeg"
+    },
+    {
+      "id": "11",
+      "name": "The Taco Truck",
+      "description": "A casual Mexican restaurant serving authentic tacos.",
+      "address": "753 Main St. Anytown USA",
+      "score": 4.4,
+      "ratings": 65,
+      "image": "https://images.adsttc.com/media/images/6027/27e3/f91c/8176/4b00/0347/large_jpg/8.jpg?1613178815"
+    },
+    {
+      "id": "12",
+      "name": "The Ice Cream Parlor",
+      "description": "A family-friendly restaurant with a variety of ice cream flavors.",
+      "address": "852 Oak Ave. Anytown USA",
+      "score": 4.9,
+      "ratings": 150,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTodrxjUYHavyFv_wOYNt4UhUMzgZEDDJU_k9h4Z3tLAg&s"
+    },
+    {
+      "id": "3b11",
+      "name": "11",
+      "description": "111",
+      "address": "111",
+      "score": "111",
+      "ratings": "11",
+      "image": "111"
+    }
+  ]
+}
