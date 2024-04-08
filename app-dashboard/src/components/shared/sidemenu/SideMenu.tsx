@@ -21,8 +21,6 @@ const menuItems: MenuItem[] = [
 ];
 
 
-
-
 export const SideMenu = () => {
 
   return (
@@ -37,7 +35,7 @@ export const SideMenu = () => {
         <p className="text-slate-500 text-sm">Manejador de estados simple pero poderoso.</p>
       </div>
 
-      {/*  Profile */ }
+      {/*  Profile */}
       <div id="profile" className="px-6 py-10">
         <p className="text-slate-500">Bienvenido,</p>
         <a href="#" className="inline-flex space-x-2 items-center">
@@ -45,18 +43,18 @@ export const SideMenu = () => {
             <img className="rounded-full w-8 h-8" src="https://images.unsplash.com/photo-1542909168-82c3e7fdca5c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=128&q=80" alt="" />
           </span>
           <span className="text-sm md:text-base font-bold">
-            Edward Tompson
+            Jhan Carlos Acuña Ordoñez
           </span>
         </a>
       </div>
 
-      {/* Menu Items */ }
+      {/* Menu Items */}
       <nav id="nav" className="w-full px-6">
 
         {
-          menuItems.map( item =>(
+          menuItems.map(item => (
             <SideMenuItem key={item.href} {...item} />
-          ) )
+          ))
         }
 
 
