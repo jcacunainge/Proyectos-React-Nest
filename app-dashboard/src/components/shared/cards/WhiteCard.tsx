@@ -6,7 +6,6 @@ interface Props {
   className?: string;
 }
 
-
 export const WhiteCard = ( { children, centered, className }: Props ) => {
   return (
     <div className={
