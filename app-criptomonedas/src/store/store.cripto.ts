@@ -1,15 +1,38 @@
 import { create } from "zustand";
-import axios from "axios";
 
-async function getCryptos() {
-    const url = 'https://min-api.cryptocompare.com/data/top/mktcapfull?limit=20&tsym=USD'
-    const { data: { Data } } = await axios(url)
-    console.log(Data)
-}
+import { CryptoPrice, Cryptocurrency, Pair } from "../types";
+import { getCryptos, fetchCurrentCryptoPrice } from "../services/CryptoService";
 
-export const useCryptoStore = create(()=> ({
-    fetchCryptos: () => {
-        getCryptos()
-    }
+type CryptoStore = {
+  cryptocurrencies: Cryptocurrency[];
+  result: CryptoPrice;
+  fetchCryptos: () => Promise<void>;
+  fetchData: (pair: Pair) => Promise<void>;
+};
 
-})) 
+export const useCryptoStore = create<CryptoStore>((set) => ({
+  cryptocurrencies: [],
+  result: {
+    IMAGEURL: "",
+    PRICE: "",
+    HIGHDAY: "",
+    LOWDAY: "",
+    CHANGEPCT24HOUR: "",
+    LASTUPDATE: "",
+  },
+
+  fetchCryptos: async () => {
+    const cryptocurrencies = await getCryptos();
+
+    set(() => ({
+      cryptocurrencies,
+    }));
+  },
+
+  fetchData: async (pair) => {
+    const result = await fetchCurrentCryptoPrice(pair);
+    set(() => ({
+      result,
+    }));
+  },
+}));

@@ -10,5 +10,6 @@ export const currencies: Currency[] = [
   { code: 'JPY', name: 'Yen Japonés' },
   { code: 'CAD', name: 'Dólar Canadiense' },
   { code: 'AUD', name: 'Dólar Australiano' },
-  { code: 'CHF', name: 'Franco Suizo' }
+  { code: 'CHF', name: 'Franco Suizo' },
+  
 ];
